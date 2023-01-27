@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.User {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../assets/iw.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-origin: content-box;
+  background-size: cover;
+  object-fit: cover;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 500px;
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.9),
+    0 6px 20px 0 rgba(255, 255, 255, 0.49);
+  backdrop-filter: blur(25px);
+}
+
+#in {
+  background-color: rgba(68, 15, 15, 0.4);
+  height: 30px;
+  margin-left: 20px;
+  width: 180px;
+  border-radius: 4px;
+  font-size: larger;
+}
+
+#btn-2 {
+  background-color: rgba(68, 15, 15, 0.8);
+  margin-top: 20px;
+  cursor: pointer;
+  height: 60px;
+  width: 150px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  #form {
+    width: 300px;
+    font-size: 20px;
+  }
+  #in {
+    width: 140px;
+  }
+  #btn-2 {
+    width: 130px;
+  }
+}
